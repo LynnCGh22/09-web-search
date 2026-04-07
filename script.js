@@ -27,7 +27,7 @@ topicSelect.addEventListener('change', async () => {
         messages: [
           {
             role: 'system',
-            content: 'You are a helpful assistant that summarizes recent stories about the provided topic from this week. Keep your answers brief, clear, and engaging for a general audience.'
+            content: 'You are a helpful assistant that summarizes recent stories about the provided topic from this week. Keep your answers brief, clear, and engaging for a general audience. Also, make sure to include the date of the story and the source link if available, and try to include relatively recent stories (from the last week).'
           },
           {
             role: 'user',
